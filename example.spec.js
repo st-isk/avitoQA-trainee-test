@@ -44,7 +44,7 @@ test("check energy counter on desktop viewport", async ({ browser }) => {
         .screenshot({ path: "output/ТК3.png" });
 });
 
-test("check CO2 counter on monile viewport", async ({ browser }) => {
+test("check CO2 counter on mobile viewport", async ({ browser }) => {
     const context = await browser.newContext({
         ...devices["iPhone 11 Pro"],
     });
@@ -57,7 +57,7 @@ test("check CO2 counter on monile viewport", async ({ browser }) => {
         .screenshot({ path: "output/ТК4.png" });
 });
 
-test("check water counter on monile viewport", async ({ browser }) => {
+test("check water counter on mobile viewport", async ({ browser }) => {
     const context = await browser.newContext({
         ...devices["iPhone 11 Pro"],
     });
@@ -70,7 +70,7 @@ test("check water counter on monile viewport", async ({ browser }) => {
         .screenshot({ path: "output/ТК5.png" });
 });
 
-test("check energy counter on monile viewport", async ({ browser }) => {
+test("check energy counter on mobile viewport", async ({ browser }) => {
     const context = await browser.newContext({
         ...devices["iPhone 11 Pro"],
     });
